@@ -1,0 +1,112 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #2b2323;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(54, 36, 15);
+    background-image: "https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJhY2tncm91bmQlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D";
+    color: #bca7a7;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    color: #fbcbb8;
+}
+
+h2,
+h3 {
+    color: #281c1c;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: rgb(47, 7, 7);
+    height: 100%;
+}
+
+.project {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(52, 49, 49, 0.2);
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    background-color: rgb(63, 43, 9);
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+
+}
+
+.project p {
+    padding: 15px;
+    margin: 0;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #402d17;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #47a97d;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
